@@ -1,0 +1,387 @@
+<!--
+  ~ Copyright 2019 Uriah Shaul Mandel
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<resources>
+    <string name="about">About</string>
+    <string name="about_subtext">Hi!\nMy name is Uriah Shaul Mandel, and I\'m the developer of this platform.\n
+        I\'ve spent most of my \"adult\" life making this platform, and I\'ve released it for free, for all to
+        use.\nYou are more than welcome to contact me by email:\nbaldphone.contact@gmail.com
+    </string>
+    <string name="accessibility_level">Erişilebilirlik Seviyesi</string>
+    <string name="accessibility_settings">Erişilebilirlik</string>
+    <string name="accidental_touches">Istenmeden Dokunma Ayarı</string>
+    <string name="accidental_touches_settings_subtext">But ayar telefonunuz örtülü olduğu zaman, dokunuşlari algılamıyor. Sorun yaşıyorsanız, bu ayarı kapatın.
+    </string>
+    <string name="accidental_touches_subtext">Istenmeden Dokunma algılandı. Telefonu kullanmak için tamama basınız. Bu mesaj devamıyla gelirse, \"erişilebilirlik ayarları\" altında kapatabilirsiniz.
+    </string>
+    <string name="acknowledgments">Uyarılar</string>
+    <string name="adaptive">Adaptiv</string>
+    <string name="add_alarm">Alarm ekle</string>
+    <string name="add_alarm_quickly">Zaman ölçer ekle</string>
+    <string name="add_contact">Kişi ekle</string>
+    <string name="add_emergency_contact">Acil arama kişisini ekle</string>
+    <string name="add_pill">İlaç ekle</string>
+    <string name="add_shortcut">Uygulama kısayolu ekle</string>
+    <string name="add_to_favorite">Favorilerine ekle</string>
+    <string name="add_to_home">Ana sayfaya ekle</string>
+    <string name="add_to_sos">Acile/SOS\'e ekle</string>
+    <string name="address">Adres</string>
+    <string name="advanced_options">Geliştirilmiş Ayarlar</string>
+    <string name="afternoon">Öğleden sonra</string>
+    <string name="airplane_mode">Uçak modu</string>
+    <string name="alarm_name">Alarmın ismi</string>
+    <string name="alarm_volume">Alarmın ses seviyesi</string>
+    <string name="alarm_volume_subtext">Alarm için ses seviyesini seçin. Ses soldan sağa yükseliyor.</string>
+    <string name="alarms">Alarmlar</string>
+
+    <string name="alarms_repeats_every">Alarmın tekrarlanma süreci</string>
+    <string name="all_alarms">Tüm alarmlar</string>
+    <string name="allow">Izin ver</string>
+    <string name="already_setted">Zaten kurulu! Değiştirmek için buraya basın</string>
+    <string name="an_error_has_occurred">Hata oluştu</string>
+    <string name="and_welcome_to_baldphone">Baldphone\'a hoşgeldiniz</string>
+
+    <string name="apps">Uygulamalar</string>
+    <string name="are_you_sure_you_want_to_delete___">Bunu silmek istediğinize emin misiniz %s?</string>
+    <string name="assistant">Asistan</string>
+    <string name="at_least_one_day_must_be_selected">En az bir gün seçilmek sorunda!</string>
+    <string name="auto_brightness">Otomatik\n parlaklık</string>
+    <string name="backspace">Geri tuşu</string>
+    <string name="baldphone_bla_allow_permission">Lütfen gerekli izinleri veriniz:</string>
+    <string name="blocked">Bloke edilmiş</string>
+    <string name="bluetooth">Bluetooth</string>
+    <string name="brightness">Parlaklık</string>
+    <string name="brightness_subtext">Parlaklık\'i değiştir</string>
+    <string name="cache_cleared_successfully">Önbellek başarıyla temizlendi!</string>
+    <string name="call">Arama</string>
+    <string name="calling">Aranıyor</string>
+
+    <string name="call_log">Arama kayıtı:</string>
+    <string name="call_subtext">Bu gerekçe, aramaları yapmak için gerekli.</string>
+    <string name="camera">Kamera</string>
+    <string name="camera_subtext">Bu gerekçe, el fenerini kullanmak için gerekli.</string>
+    <string name="cancel">Vazgeç</string>
+    <string name="change_pills_time">Hap zamanını değiştir.</string>
+    <string name="change_system_settings_subtext">Lütfen Baldphone\'a ayarları değiştirme onayı veriniz, örneğin yazı tipini değiştirmek veya parlaklığı değiştirmek için.
+    </string>
+    <string name="choose_friday">Cum</string>
+    <string name="choose_monday">Pzt</string>
+    <string name="choose_saturday">Cmt</string>
+    <string name="choose_sunday">Pzr</string>
+    <string name="choose_thursday">Çar</string>
+    <string name="choose_tuesday">Sal</string>
+    <string name="choose_wednesday">Per</string>
+    <string name="clear">Sil/Temizle</string>
+    <string name="clear_cache">Önbellek\'i sil</string>
+    <string name="clear_data">Tüm hafızayı sil</string>
+    <string name="clear_data_subtext">Tüm bilgileri silmek istediğinize emin misiniz?</string>
+    <string name="clear_data_subtext2">100%?</string>
+    <string name="clear_data_subtext3">Emin misiniz?\nBasmak bütün bilgilerinizi siler!</string>
+    <string name="clock">Saat</string>
+    <string name="coming_soon">Gelecek/Daha işlemde!</string>
+    <string name="connection_settings">Bağlantı</string>
+    <string name="contact_must_has_name">Kişinin ismi olması lazim!</string>
+    <string name="contact_not_created">Kişi eklenmedi!</string>
+    <string name="contacts">Kişiler</string>
+    <string name="contacts_read_subtext">Bu gerekçe, Kişilere bakmak için gerekli.</string>
+    <string name="contacts_subtext">But gerekçe, yeni Kişi eklemek için gerekli..</string>
+    <string name="crash">Hay daaa!\ BaldPhone\'da Hata oluştu! Yeniden başlatılıyot.</string>
+    <string name="current_time">Şimdiki zaman</string>
+    <string name="custom">Özel</string>
+    <string name="dark">Karanlık</string>
+    <string name="delete">Sil</string>
+    <string name="delete___"> %s? Silmeye emin misiniz?</string>
+    <string name="delete_all_alarms">Tüm alarmları sil</string>
+    <string name="dialer">Arama</string>
+    <string name="display_settings">Ekran ayarları</string>
+    <string name="done">Bitti</string>
+    <string name="down">Aşağı</string>
+    <string name="edit">Düzenle</string>
+    <string name="email">E-posta:</string>
+    <string name="enable_notification_access">Bildirim erişimine izin veriniz</string>
+    <string name="enable_notification_access_subtext">Lütfen BaldPhone bildirimlerine izin veriniz.</string>
+    <string name="enter">Giriş</string>
+    <string name="enter_contact_or_phone_number">Kişinin ismini giriniz:</string>
+    <string name="evening">Akşam</string>
+    <string name="example_of_different_text_sizes">Değişik metin büyüklükleri\n Sözlerin kesintisiz okunabilecek olması lazım.
+    </string>
+    <string name="external_storage_subtext">Bu gerekçe resim ve dosya kaydede bilmeniz için gerekli.</string>
+    <string name="feedback">Geribildirim gönder</string>
+    <string name="feedback_cannot_be_empty">Geribildirim boş olamaz!</string>
+    <string name="feedback_sent_successfully">Geribildirim gönderildi!</string>
+    <string name="first_please_select_how_you_want_to_interact_with_buttons">Lütfen erişilebilirlik için ayar seçiniz.
+    </string>
+    <string name="font_size">Metin büyüklüğü</string>
+    <string name="friday">Cuma</string>
+    <string name="have_hard_time_using_the_phone_s_keyboard_use_baldphone_s_big_keyboard_instead">Şu klavyeyi kullanmakt sıkıntı mı yaşıyorsunuz? BaldPhone\'un BÜYÜK Klavyesini deneyin.
+    </string>
+    <string name="hello">Merhaba</string>
+    <string name="help">Yardım</string>
+    <string name="hide">Sakla</string>
+    <string name="high_level">Yüksek seviye</string>
+    <string name="home_phone_number">Ev telefonu numarası</string>
+    <string name="hour">Saat</string>
+    <string name="huge">Huge</string>
+    <string name="internet">Internet</string>
+    <string name="invoked_in">Çağrıldı:</string>
+    <string name="it_s_highly_recommended_to_use_baldphone_s_home_screen_as_the_default_home_launcher">Son bir şey:\n Baldphon\'un kendi ana sayfayasnini kullanmanızı tavsiye ederiz.
+    </string>
+    <string name="language">Dil</string>
+    <string name="language_settings">Dil ayarları</string>
+    <string name="large">Large</string>
+    <string name="left_handed">Solak</string>
+    <string name="light">Parlak</string>
+    <string name="location">Konum</string>
+    <string name="emergency_services">Acil/SOS servisleri</string>
+    <string name="mail">posta</string>
+    <string name="maps">Haritalar</string>
+
+
+    <string name="medium">medium</string>
+    <string name="medium_level">Orta seviye</string>
+    <string name="message">Mesaj</string>
+    <string name="messages">Mesajlar</string>
+    <string name="minute">Dakika</string>
+    <string name="minutes">Dakikalar</string>
+    <string name="missed">Eksik</string>
+
+    <string name="mobile_phone_number">Mobil telefon numarası</string>
+    <string name="monday">Pazartesi</string>
+    <string name="more">Daha fazla</string>
+    <string name="morning">Sabah</string>
+    <string name="name">İsim</string>
+    <string name="named__">İsimlenmiş</string>
+    <string name="new_alarm___was_created">Yeni alarm %s kuruldu!</string>
+    <string name="nfc">NFC</string>
+    <string name="no">Hayır</string>
+    <string name="notes">Notlar</string>
+    <string name="notes_settings">Not ayarları</string>
+    <string name="notes_settings_subtext">Ana sayfada Notlar sayfasını görmek istiyor musunuz?</string>
+    <string name="notifications">Bildirimler</string>
+
+    <string name="of">of</string>
+    <string name="off">Kapat</string>
+    <string name="ok">Tamam</string>
+    <string name="on">Aç</string>
+
+    <string name="only_once">Sadece bir kere</string>
+
+
+    <string name="open">Aç</string>
+
+    <string name="outgoing">Giden</string>
+    <string name="page">Sayfa</string>
+    <string name="permissions_part">İzinler bölmesi</string>
+    <string name="personalization_settings">Özelleştirme ayarları</string>
+    <string name="phone">Telefon</string>
+    <string name="photo">Resim</string>
+    <string name="photos">Resimler</string>
+    <string name="pill_added">İlaç eklendi!</string>
+    <string name="pill_name">İlaç ismi</string>
+    <string name="pills">İlaçlar</string>
+    <string name="press_longer">Daha uzun basınız!</string>
+    <string name="timer">Zaman ölçer</string>
+    <string name="read_call_log">Arama geçmişi</string>
+    <string name="read_call_log_subtext">Bu izin arama geçmişinizi görmeniz için gereklidir.</string>
+    <string name="read_contacts">Kişiler</string>
+    <string name="received">Alınan</string>
+    <string name="recent">Yeni</string>
+    <string name="regular_level">Sıradan seviye</string>
+
+    <string name="remove_from_favorite">Favorilerden çıkarın</string>
+    <string name="remove_from_home">Ana sayfadan çıkarın</string>
+    <string name="remove_from_sos">Acil/SOS\'den çıkarın</string>
+    <string name="remove_shortcut">Kısayolu silin</string>
+    <string name="removed_all_alarms">Tüm alarmlarınız silindi!</string>
+    <string name="repeats_every_day">Her gün tekrarla</string>
+    <string name="right_handed">Sağlak</string>
+
+    <string name="saturday">Cumartesi</string>
+    <string name="save">Kaydet</string>
+    <string name="send">Gönder</string>
+    <string name="set_default_dialer">Varsayılan arama uygulamasını seçiniz</string>
+    <string name="set_default_dialer_subtext">BaldPhone varsayılan arama uygulaması olarak seçilmeli.</string>
+    <string name="set_home_screen">Ana sayfayı ayarla</string>
+    <string name="set_home_screen_subtext">BaldPhone\'u kullanmak için, onu ana sayfa olarak ayarlamalısınız.\nBu ayar Ayarlar kısmından geri çevirebilirsiniz.</string>
+    <string name="set_keyboard">Klavye ayarla</string>
+    <string name="setting_does_not_exist">Böyle ayar yok</string>
+    <string name="settings">Ayarlar</string>
+    <string name="settings_permission">Ayarlar izni</string>
+    <string name="share">Paylaş</string>
+    <string name="share_actual_text">Merhaba, Ben \"BaldPhone\" isimli, telefonun arayüzünü büyük, sade ve güzel bir arayüze çeviren bi uygulama kullanıyorum.
+     \nMerak mı ettin?\nBedavaya indire bilirsin!\nDaha fazla bilgi için şu bağlantıyı kullan:\n\nhttps://baldphone.com</string>
+    <string name="share_bald_phone_subtext">Hey, BaldPhone\'u tanımayan birini mi tanıyorsunuz?\nBunu onunla paylaşa bilirsiniz!</string>
+    <string name="share_baldphone">BaldPhone\'u paylaş</string>
+    <string name="share_contact">Kişiyi paylaş</string>
+    <string name="share_differently">Başka uygulamayla paylaş</string>
+    <string name="share_via_whatsapp">Whatsapp ile paylaş</string>
+    <string name="shift">Değiştir</string>
+    <string name="show">Göster</string>
+    <string name="small">Small</string>
+    <string name="snooze">Ertele</string>
+    <string name="sos">Acil\SOS</string>
+    <string name="sos_is_full">Acil\SOS dolu!</string>
+    <string name="sos_is_full_subtext">Acil\SOS dolu! Lütfen yeni bir Acil\SOS kişisini eklemek için diğerlerini kaldırın.</string>
+    <string name="speak">Konuş</string>
+    <string name="speech_to_text">Sesten yazıya</string>
+    <string name="strong_hand">Hakim el</string>
+    <string name="strong_hand_subtext">Kullanıcı arayüzünü ayarlamak için hakim elinizi seçiniz.</string>
+    <string name="submit">Sunun</string>
+    <string name="sunday">Pazar</string>
+    <string name="technical_information">Teknik bilgiler</string>
+    <string name="theme_settings">Tema ayaralrı</string>
+    <string name="theme_settings_subtext">Tema seçiniz</string>
+
+    <string name="thursday">Perşembe</string>
+    <string name="time_changer">İlaç zamanını değiştir</string>
+    <string name="tiny">Tiny</string>
+    <string name="to___days_and___hours_from_now">şimdiden %d gün ve %d saat sonraya</string>
+    <string name="to___hours_and___minutes_from_now">şimdiden %d saat ve %d dakika sonraya</string>
+    <string name="to___minuets_from_now">şimdiden %d dakika sonraya</string>
+    <string name="today">Bu gün</string>
+    <string name="took">Alındı!</string>
+    <string name="tuesday">Salı</string>
+    <string name="uninstall">Kaldırın</string>
+    <string name="uninstall_subtext">Kaldırmak istediğinize emin misiniz %s?\n%s\'a ait bilgiler silinecek!</string>
+    <string name="up">Yukarı</string>
+    <string name="video">Video</string>
+    <string name="video_tutorials">Video Dersler</string>
+    <string name="videos">Videolar</string>
+
+    <string name="voice_mail">Sesli mesaj</string>
+    <string name="wednesday">Çarşamba</string>
+    <string name="whatsapp">Whatsapp</string>
+    <string name="wifi">Wifi</string>
+    <string name="will_repeat_only_once">Yalnız bir kere tekrarlanacak!</string>
+    <string name="write">Yazın</string>
+    <string name="write_contacts">Kişileri yazınız</string>
+    <string name="write_external_storage">Harici depolama alanına yazın</string>
+    <string name="yes">Evet</string>
+    <string name="yesterday">Dün</string>
+    <string name="nothing">Hiçbir şey</string>
+    <string name="no_contacts_found">Hiçbir kişi bulunamadı!</string>
+    <string name="no_alarms">Alarmınız yok\nŞuraya basarak birini yaratın\n\"Alarm yarat\"\nve ya\n\"Zaman ölçer ekle\"</string>
+    <string name="no_pills">Listede hiç bir ilacınız yok \nŞuraya basarak birini yaratın\n\"İlaç ekle\"</string>
+    <string name="clear_all_notifications">Tüm bildirimleri temizle</string>
+    <string name="clear_cache_subtext">Önbelleyi temizlemek istediğinize emin misiniz?\nUygulama kısayolları kaldırılacak!</string>
+    <string name="permissions_calm">Merhaba, BaldPhone\'un düzgün çalışması için aşağıdakı izinleri vermelisiniz. Bazı izinler korkunç seslene bilir, ama BaldPhone\'un telefonunuzun arayüzünün yerini almasının başka bir yolu yok. Bu işlem tamamen zararsızdır ve hiç bir bilginiz ele geçirilmeyecek. Tamama basarak şu izinleri veriniz.</string>
+    <string name="pending_update">Bekleyen güncelleme</string>
+    <string name="download">İndir</string>
+    <string name="install_updates">Güncellemeleri kurun</string>
+    <string name="install_updates_subtext">BaldPhone\'u güncellemek için şu izin gerekli</string>
+    <string name="a_new_update_is_available">Yeni güncelleme hazır!\nGüncellemeler BaldPhone\'un hızlı ve pürüzsüz çalışması için önemli.\nTamama basarak indiriniz.</string>
+    <string name="current_version">Şimdiki sürüm:\n</string>
+    <string name="new_version">Yeni sürüm:\n</string>
+    <string name="new_updates_are_ready_to_be_downloaded">Yeni güncellemeler indirilmeye hazır.</string>
+    <string name="install">Kurun</string>
+    <string name="data_warning">Veri Uyarısı</string>
+    <string name="data_warning_subtext">Merhaba, siz WIFI\'a bağlı değilsiniz.\nİndirme ölçüsü 3MB, eğer yurt dışındaysanız paraya mal olabilir.\nİndirmeye devam etmek ister misiniz?</string>
+    <string name="update_message_is_corrupted">Güncelleme mesajı çökmüş.</string>
+    <string name="check_for_updates">Güncellemeleri denetle</string>
+    <string name="could_not_connect_to_server">Sunucuya bağlanılamadı!</string>
+    <string name="could_not_connect_to_internet">internete bağlanılamadı!</string>
+    <string name="could_not_start_the_download">İndirme başlatılamadı!</string>
+    <string name="downloaded_update_file_could_not_be_deleted">indirilmiş güncelleme dosyası silinemedi!</string>
+    <string name="downloading">İndiriliyor…</string>
+
+    <string name="baldphone_is_up_to_date">BaldPhone güncel.</string>
+    <string name="what_s_new">Yeni ne var?</string>
+    <string name="download_finished">İndirme tamamlandı!</string>
+    <string name="downloading_updates">Güncellemeler indiriliyor…</string>
+    <string name="installing_doesn_t_work">Kurma işlemi çalışmıyor mu?</string>
+    <string name="try_now">Şimdi dene</string>
+    <string name="download_progress">İndirme ilerlemesi</string>
+    <string name="what_do_you_want_to_do_with___">Şununla ne etmek istiyorsunuz %s?</string>
+    <string name="crash_reports">Kaza şikayetleri</string>
+    <string name="crash_reports_subtext">Kaza şikayetleri BaldPhone\'un kullanım tecrübesinin geliştirilmesine yardım ediyorlar.\nOnlar sadece hataların bulunması ve düzeltilmesine yardım ediyorlars, ve size ait hiçbir bilgi elde edilmiyor.</string>
+    <string name="custom_app">Özel uygulama</string>
+    <string name="custom_app_subtext">Ana sayfada olacak özel uygulamayı seçiniz.</string>
+    <string name="no_app_was_found">Eşleşen uygulama bulunamadı!</string>
+    <string name="alarm">Alarm</string>
+    <string name="no_new_notifications">Yeni bildirim yok</string>
+    <string name="sound">Ses</string>
+    <string name="mute">Sessize al</string>
+    <string name="vibrate">Titreşim</string>
+    <string name="your_phone_doesnt_have_assistant_installed">Telefonunuza hiçbir asistan yüklü değil.</string>
+
+
+    <string name="status_bar_settings">Durum çubuğu</string>
+    <string name="status_bar_settings_subtext">Durum çubuğunun nerede görünmesini istiyorsunuz?</string>
+    <string name="only_home_screen">Yalnız ana sayfada</string>
+    <string name="nowhere">Hiçbir yerde</string>
+    <string name="everywhere">Her yerde</string>
+
+
+    <string name="share_photo">Resim paylaşın</string>
+
+    <string name="choose_language_for_keyboard">Dil seçiniz</string>
+    <string name="hebrew">İbranice</string>
+    <string name="english">İngilizce</string>
+
+    <string name="search">Arama</string>
+    <string name="next">Sonraki</string>
+    <string name="go">Git</string>
+
+
+    <string name="dialer_sounds">Arama sesleri</string>
+    <string name="dialer_sounds_subtext">Arama sesleri istiyorsanız seçiniz.</string>
+    <string name="low_battery_alert">Düşük pil alarmı</string>
+    <string name="low_battery_alert_subtext">Eğer pil düşük olduğu zaman durum çubuğunun kırmızıya boyanmasını istiyorsanız seçiniz.\nNot: eğer durum çubuğu gizliyse görünmeyecektir.</string>
+
+    <string name="also_available_at">\nbaldphone.contact@gmail.com\nFeedback\'de de mevcut! Yalnız İngilizce ve İbranice olmalı!</string>
+    <string name="grant_all_permissions">Tüm izinleri veriniz</string>
+
+
+    <!--For Tests:-->
+    <string name="medication_1">Eltroxin 100</string>
+    <string name="medication_2">Eltroxin 150</string>
+    <string name="donate">Bağış yap</string>
+    <string name="emergency_button">Acil durum butonu</string>
+    <string name="emergency_settings_subtext">Acil durum butonunun ekranda olmasını istiyorsanız seçiniz.</string>
+    <string name="private_number">Özel numara</string>
+    <string name="swipe_left_or_right">Sağa ve ya Sola kaydırın</string>
+    <string name="press_next_or_back_buton">İreli ve ya geri okuna basınız</string>
+    <string name="click_delay">Basma gecikmesi</string>
+    <string name="no_delay">Gecikme yok</string>
+    <string name="scrolling">Kaydırma</string>
+    <string name="arrows">Oklar</string>
+    <string name="swipe">Kaydırın</string>
+    <string name="_long">Uzun</string>
+    <string name="_short">Kısa</string>
+    <string name="do_you_want_to_save_your_changes">Değişiklikleri kaydetmek istiyor musunuz?</string>
+    <string name="discard">Atın</string>
+    <string name="no_recent_calls">Yeni çağrı yok</string>
+    <string name="apps_sort_method">Uygulamaları dizme yöntemi</string>
+    <string name="apps_sort_method_subtext">Uygulamaları tek bir hanede mi yoksa harflerle farklı gruplara mı ayırmak istediğinizi seçin</string>
+    <string name="groups">Gruplar</string>
+    <string name="one_grid">Tek hane</string>
+    <string name="colorful">Renkli</string>
+    <string name="colorful_subtext">BaldPhone\'u daha renkli yapmak ister misiniz?</string>
+    <string name="edit_home_screen">Ana sayfayı düzenle</string>
+
+
+    <string-array name="names_for_screenshots">
+        <item>The Godfather</item>
+        <item>Abraham Lincoln</item>
+        <item>Paul McCartney</item>
+        <item>Tyrion Lannister</item>
+        <item>The Rock</item>
+        <item>Robert Downey Jr.</item>
+    </string-array>
+
+    <bool name="is_right_to_left">false</bool>
+
+</resources>
